@@ -1,0 +1,128 @@
+/* CSS file */
+body{
+    margin: 24px;
+    padding: 0;
+    background:#C1C1C1;
+}
+
+.wall{
+    display:flex;
+    flex-wrap:wrap;
+    position:relative;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.wall-column1{
+    display:block;
+    position:relative;
+    width:40%;
+    height: 800px;
+    float:left;
+    padding:0 2px;
+    box-sizing:border-box;
+    background:rgb(68, 68, 68);
+}
+
+.wall-column2{
+    display:block;
+    position:relative;
+    width:60%;
+    height:800px;
+    float:right;
+    padding:0 2px;
+    box-sizing:border-box;
+    background:white;
+}
+
+.wall-item{
+    display:block;
+    margin: 0 0 30px 0;
+    padding: 12px;
+    border-radius: 3px;
+    box-shadow:0px 1px 2px 0 px rgb(0, 0, 0, 0.5);
+    transition:all 220ms;
+}
+
+.header1-container{
+    position:relative;
+    top:120px;
+    font-size: 45px;
+    text-align: center;  
+}
+
+.header-color{
+    color:white;
+}
+
+.name-wall{
+    display:flex;
+    flex-wrap:wrap;
+    position:relative;
+}
+
+.sub-header-name-column{
+    display:block;
+    position:absolute;
+    top:200px;
+    left:15%;
+    font-size:30px;
+    text-align:left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sub-header-unit-column{
+    display:block;
+    position:absolute;
+    top:200px;
+    float:right;
+    right:20%;
+    font-size:30px;
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.name-column{
+    display:block;
+    position:absolute;
+    top:120px;
+    float:left;
+    left:20%;
+    font-size:30px;
+    text-align:center;
+}
+
+.pic-column{
+    display:block;
+    position:absolute;
+    top:120px;
+    float:right;
+    right:10%;
+    font-size:30px;
+    text-align:center;
+}
+
+p{
+    background-color: #C1C1C1;
+    border-radius: 5px;
+}
+
+input{
+    height:14px;
+}
+
+select{
+    height:20px;
+}
+
+.enter{
+    width:250px;
+    height:40px;
+    background-color: #c1c1c1;
+    border-radius: 5px;
+    font-size: 20px;
+    border-color: rgb(0, 0, 0);
+}
+
+.enter:hover{
+    background-color: rgba(193, 193, 193, 0.5);
+}
